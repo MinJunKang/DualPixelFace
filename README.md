@@ -47,6 +47,7 @@ If you use these models, please cite their papers.
 
 ## Environment Setting
 
+**Conda Environment** 
 <pre>
 <code>
 conda create -n dpface python=3.6
@@ -55,6 +56,8 @@ conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytor
 sh ./installer.sh
 </code>
 </pre>
+
+**Docker Environment** 
 
 ## How to run?
 
