@@ -10,11 +10,9 @@ Official pytorch implementation of
 ## Project Description
 This project aims to provide environment for all the developlers/researchers working with the dual pixel sensor.
 
-Please update any issues and revised code using the function of pull requests.
-
 This project provides benchmark dataset and baseline code of "Facial Depth and Normal Estimation using Single Dual-Pixel Camera".
 
-You can also see the recent papers of Dual-Pixel in this [page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
+You can also see the recent papers related to Dual-Pixel in this [page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
 
 ## Environments
 
