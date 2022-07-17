@@ -16,8 +16,8 @@ This is to share "Dual-Pixel" related reference papers.
 |Year|Pub|Paper|Repo|
 |:---:|:---:|:---:|:---:|
 |2020|ECCV|[Defocus Deblurring Using Dual-Pixel Data](https://arxiv.org/abs/2005.00305)|[Code](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) <br /> [Project](https://www.eecs.yorku.ca/~abuolaim/eccv_2020_dp_defocus_deblurring/) <br /> [Review]|
-|2020|arxiv|[Learning to Reduce Defocus Blur by Realistically Modeling Dual-Pixel Data](https://arxiv.org/abs/2012.03255)|[Code](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel) <br /> [Project] <br /> [Review]|
-|2020|arxiv|[Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration](https://arxiv.org/abs/2012.00301)|[Code] <br /> [Project] <br /> [Review]|
+|2021|ICCV|[Learning to Reduce Defocus Blur by Realistically Modeling Dual-Pixel Data](https://arxiv.org/abs/2012.03255)|[Code](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel) <br /> [Project] <br /> [Review]|
+|2021|CVPR|[Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration](https://arxiv.org/abs/2012.00301)|[Code] <br /> [Project] <br /> [Review]|
 
 # Dual Pixel Depth Estimation
 
