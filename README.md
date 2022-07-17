@@ -14,13 +14,29 @@ This project provides benchmark dataset and baseline code of "Facial Depth and N
 
 You can also see the recent papers related to Dual-Pixel in this [page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
 
-## Environments
+## Environment Setting
 
-Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
+**Conda Environment**
+: Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
+<pre>
+<code>
+conda create -n dpface python=3.6
+conda activate dpface
+conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytorch
+sh ./installer.sh
+</code>
+</pre>
+
+**Docker Environment**
+: Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.6.0 (python version 3.7).
+<pre>
+<code>
+</code>
+</pre>
 
 Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
-## Supported Dataset
+## Supporting Dataset
 
 ### Depth Benchmark
 (1) Google dual pixel depth benchmark. 
@@ -29,7 +45,9 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 (2) Our facial dataset benchmark. (comming soon, available by contacting us.)
 
-## Supported Model
+If you use these datasets, please cite their papers.
+
+## Supporting Model
 
 (1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/JiaRenChang/PSMNet)]
 
@@ -44,25 +62,6 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 (6) StereoDPNet      (Ours)
 
 If you use these models, please cite their papers.
-
-## Environment Setting
-
-**Conda Environment**
-Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
-<pre>
-<code>
-conda create -n dpface python=3.6
-conda activate dpface
-conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytorch
-sh ./installer.sh
-</code>
-</pre>
-
-**Docker Environment**
-<pre>
-<code>
-</code>
-</pre>
 
 ## How to run?
 
