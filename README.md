@@ -88,6 +88,8 @@ CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace 
 
 The result will be automatically saved in ./output/[model to use]/[Workspace name]/*.
 
+### Testing
+
 If you want to use your own pretrained weight, please run like this.
 
 <pre>
@@ -96,7 +98,7 @@ CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace 
 </code>
 </pre>
 
-### Testing & Demo
+### Demo
 
 Will be updated soon!
 
