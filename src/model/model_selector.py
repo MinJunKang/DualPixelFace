@@ -21,6 +21,8 @@ def model_selector(option):
             loaded_checkpoints = checkpoint['state_dict']
         elif 'model' in checkpoint:
             loaded_checkpoints = checkpoint['model']
+        else:
+            raise NotImplementedError('wrong checkpoint')
         model.load_state_dict(loaded_checkpoints, strict=option.load_strict)
     
     return model
@@ -43,7 +45,7 @@ def optimizer_selector(params, option):
 def scheduler_selector(optimizer, option):
     
     if option.scheduler == 'steplr':
-        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, 10, 0.5)  # step_size, gamma
+        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, 35, 0.5)  # step_size, gamma
     elif option.scheduler == 'explr':
         scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, 0.5)  # gamma
     elif option.scheduler == 'cosanneal':

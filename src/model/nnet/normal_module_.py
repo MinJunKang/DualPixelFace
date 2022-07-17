@@ -83,7 +83,6 @@ class NormalModule(nn.Module):
         warp_grid_min = rearrange(torch.min(warp_grid_3d.view(b, -1), -1)[0], 'b -> b 1 1 1 1')
         warp_grid_max = rearrange(torch.max(warp_grid_3d.view(b, -1), -1)[0], 'b -> b 1 1 1 1')
         nwarp_grid_3d = (warp_grid_3d - warp_grid_min) / (warp_grid_max - warp_grid_min + 1e-6)
-        nwarp_grid_3d = rearrange(nwarp_grid_3d, 'b c d h w -> b d c h w')
 
         return nwarp_grid_3d.contiguous()
 
@@ -104,7 +103,7 @@ class NormalModule(nn.Module):
         wc = self.grid_maker_3d(cost_in, batch['K'], disp_range, ab_value)
         
         # apply normal layers
-        wc = torch.cat((wc.clone(),cost_in), dim = 1).contiguous()
+        wc = torch.cat((wc.clone(), cost_in), dim = 1).contiguous()
         wc0 = self.pool3(self.pool2(self.pool1(self.wc0(wc))))
         
         slices = []
@@ -113,7 +112,7 @@ class NormalModule(nn.Module):
             slices.append(self.n_convs(wc0[:,:,i]))
             nmap += slices[-1]
             
-        nmap = F.interpolate(nmap, scale_factor=4, mode = 'bilinear', align_corners = True)
+        nmap = F.interpolate(nmap, scale_factor=4, mode='bilinear', align_corners=True)
         nmap = F.normalize(nmap, dim=1)
 
         return [nmap]

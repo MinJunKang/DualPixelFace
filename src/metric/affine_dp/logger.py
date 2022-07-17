@@ -35,13 +35,13 @@ class affine_dp_Benchmark(object):
         assert (target_type in ['disp', 'depth', 'idepth'])
         pred = pred_['pred_depth'] if target_type in ['disp', 'idepth'] else inverse_depth(pred_['pred_depth'])
         target = batch[target_type] if target_type in ['disp', 'idepth'] else batch['idepth']
-        pred = tensor2numpy(pred)
+        pred = tensor2numpy(pred[:, 0])
         target = tensor2numpy(target)
         
         mask = tensor2numpy(batch['mask']) if 'mask' in batch.keys() else np.ones_like(pred[:, 0, :, :])
         conf = tensor2numpy(batch['conf']) if 'conf' in batch.keys() else mask
+        
         data = metrics(pred, target, conf)
-
         if log:
             self.update(data)
 

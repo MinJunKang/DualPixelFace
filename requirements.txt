@@ -26,7 +26,6 @@ pandas
 mxnet
 scipy
 ninja
-# gluoncv
 face_alignment
 torchgeometry
 pytorch-lightning==1.4.9

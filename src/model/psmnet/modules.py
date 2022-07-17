@@ -64,7 +64,8 @@ class disp_regression(nn.Module):
 class feature_extraction(nn.Module):
     def __init__(self, option, interp='bilinear'):
         super(feature_extraction, self).__init__()
-        inplanes = option.inplanes
+        self.inplanes = option.model.inplanes
+        inplanes = option.model.inplanes
         inplanes_quad = inplanes // 4
         inplanes_half = inplanes // 2
         inplanes2 = inplanes*2

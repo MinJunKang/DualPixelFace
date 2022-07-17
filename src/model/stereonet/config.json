@@ -1,7 +1,8 @@
 {
     "loss_type": ["smoothL1"],
     "metric_type": ["absolute_dp", "affine_dp"],
-    "lambdas": [1.0, 1.0],
+    "lambdas": [1.0],
+    "loss_weight": [1.0],
 
     "mindisp": -4,
     "maxdisp": 12,

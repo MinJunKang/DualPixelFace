@@ -46,6 +46,7 @@ def convtext(in_planes, out_planes, kernel_size = 3, stride = 1, dilation = 1):
 class feature_extraction(nn.Module):
     def __init__(self, option):
         super(feature_extraction, self).__init__()
+        self.inplanes = option.model.inplanes
         inplanes = option.model.inplanes
         inplanes_quad = inplanes // 4
         inplanes_half = inplanes // 2

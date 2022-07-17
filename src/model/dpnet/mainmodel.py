@@ -34,7 +34,6 @@ class DPNET(pl.LightningModule):
         self.option = option
         self.mindisp = option.model.mindisp
         self.maxdisp = option.model.maxdisp
-        self.level = option.model.level
         
         # mode : use bilinar upsampling instead of deconvolution
         mode = None
