@@ -5,7 +5,10 @@ Official pytorch implementation of ["Facial Depth and Normal Estimation using Si
 
 [Arxiv] [Project] [YouTube] [PPT]
 
-<img width="80%" src="https://github.com/MinJunKang/DualPixelFace/tree/main/asset/teaser.png"/>
+<div class="imgTopic2">
+ <h1 class="title"><a href="#">Teaser Image</a></h1>
+ <p class="content"><a href="#"><img src="https://github.com/MinJunKang/DualPixelFace/tree/main/asset/teaser.png" alt="" width = "675" height ="350"/></a></p>
+</div>
 
 ## Project Description
 This project aims to provide face related dual-pixel benchmark for all the developlers/researchers working with the dual pixel sensor.
