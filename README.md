@@ -3,7 +3,7 @@ Official pytorch implementation of
 
 ["Facial Depth and Normal Estimation using Single Dual-Pixel Camera"](https://arxiv.org/abs/2111.12928) (ECCV 2022)
 
-[Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/team), [Sunghoon Im](https://sunghoonim.github.io/) and [In So Kweon](http://rcv.kaist.ac.kr/)
+[Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)
 
 [pdf] [project] [bibtex]
 
