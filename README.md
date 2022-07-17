@@ -28,7 +28,7 @@ sh ./installer.sh
 </pre>
 
 **Docker Environment**
-: Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.6.0 (python version 3.7).
+: Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.7.0 (python version 3.7).
 <pre>
 <code>
 </code>
