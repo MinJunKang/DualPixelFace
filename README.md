@@ -18,6 +18,8 @@ You can also see the recent papers related to Dual-Pixel in this [page](https://
 
 Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6)
 
+Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/)
+
 ## Supported Dataset
 
 ### Depth Benchmark
@@ -86,8 +88,7 @@ If you want to use your own pretrained weight, please run like this.
 
 <pre>
 <code>
-cd DPStudioLighten
-CUDA_VISIBLE_DEVICES=[gpu idx] python Main.py --model pairnet --workspace [Workspace name] --config config --dataset rcv_face --ngpu [#gpu to use] --batchsize [batch size] --loadmodel [Your relative/absolute path to checkpoint]
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace [Workspace Name] --loadmodel [relative/absolute path to checkpoint]
 </code>
 </pre>
 
