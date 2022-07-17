@@ -66,6 +66,9 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 (Since dataset is so huge (~2.4T), we are now providing download link for the researchers who request the dataset.)
 
+1. Download and read LICENSE AGREEMENT and confirm that all the terms are agreed. Then scan the signed LICENSE AGREEMENT. (Electronic signature is allowed.)
+2. Send an email to kmmj2005@gmail.com with your signed agreement.
+
 (2) Google dual-pixel depth benchmark. 
 
 (See https://github.com/google-research/google-research/tree/master/dual_pixels for detail information).
