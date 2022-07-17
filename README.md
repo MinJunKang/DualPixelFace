@@ -94,12 +94,7 @@ CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace 
 
 ### Testing & Demo
 
-<pre>
-<code>
-cd DPStudioLighten
-CUDA_VISIBLE_DEVICES=[gpu idx] python Main.py --model pairnet --workspace [Workspace name] --config config --dataset rcv_face --ngpu [#gpu to use] --loadmodel [Your relative/absolute path to checkpoint] --mode test
-</code>
-</pre>
+Will be updated soon!
 
 ### References
 <pre>
