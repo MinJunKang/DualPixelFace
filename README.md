@@ -37,10 +37,10 @@ sh ./installer.sh
 <pre>
 <code>
 # Pull docker image
-docker push jack4852/facialdocker:latest
+docker push jack4852/eccv22_facialdocker:latest
 
 # create container and include dataset's path
-docker run -it -d --gpus all --name dpface --shm-size 64G --mount type=bind,source=[Dataset Path],target=/ndata jack4852/facialdocker:latest
+docker run -it -d --gpus all --name dpface --shm-size 64G --mount type=bind,source=[Dataset Path],target=/ndata jack4852/eccv22_facialdocker:latest
 
 # start container
 docker start dpface
