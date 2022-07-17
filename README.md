@@ -94,6 +94,7 @@ CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace 
 Will be updated soon!
 
 ### References
+If you use our dataset or code, please cite our paper:
 <pre>
 <code>
 @article{kang2021facial,
