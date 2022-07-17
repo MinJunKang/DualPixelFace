@@ -76,8 +76,7 @@ Set path:datapath = "/home/miru/rcv_face/HighRes"
 
 <pre>
 <code>
-cd DPStudioLighten
-CUDA_VISIBLE_DEVICES=[gpu idx] python Main.py --model [model to use] --workspace [Workspace name] --config config --dataset rcv_face --ngpu [#gpu to use] --batchsize [batch size]
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace [Workspace Name]
 </code>
 </pre>
 
