@@ -68,7 +68,7 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 **How to get dataset?**
 
-1. Download and read LICENSE AGREEMENT and confirm that all the terms are agreed. Then scan the signed LICENSE AGREEMENT. (Electronic signature is allowed.)
+1. Download, read LICENSE AGREEMENT, and confirm that all the terms are agreed. Then scan the signed LICENSE AGREEMENT. (Electronic signature is allowed.)
 2. Send an email to kmmj2005@gmail.com with your signed agreement.
 
 **Directory Structure of our face dataset**
