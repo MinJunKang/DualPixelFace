@@ -1,6 +1,6 @@
 # Reference Paper Lists
 
-Please feel free to upload shared paper lists in here. Please link code to Pytorch / Tensorflow (Keras) version for deep-learning task.
+This is to share "Dual-Pixel" related reference papers.
 
 <!-- Use the same format for Repo [Code](github link) <br /> [Project](project link) <br /> [Review](review contents' link) -->
 <!-- Review can be the link to ppt / pdf / word that summarizes contents of the paper. -->
