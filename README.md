@@ -1,9 +1,9 @@
-# DualPixelFace
+# Facial Depth and Normal Estimation using Single Dual-Pixel Camera
 Official pytorch implementation of ["Facial Depth and Normal Estimation using Single Dual-Pixel Camera"](https://arxiv.org/abs/2111.12928) (ECCV 2022)
 
 [Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)
 
-[pdf] [project] [bibtex]
+[Arxiv] [Project] [YouTube] [PPT]
 
 <img width="80%" src="https://github.com/MinJunKang/DualPixelFace/tree/main/asset/teaser.pdf"/>
 
