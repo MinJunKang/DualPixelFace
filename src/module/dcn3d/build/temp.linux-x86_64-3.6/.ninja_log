@@ -1,0 +1,7 @@
+# ninja log v5
+0	6093	1627287544747015739	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/build/temp.linux-x86_64-3.6/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/src/cpu/deform_cpu.o	f5d4f128cdb4e17d
+1	21861	1627287560507452857	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/build/temp.linux-x86_64-3.6/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/src/vision.o	b3c7deec3191ad26
+1	22333	1627287560975465838	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/build/temp.linux-x86_64-3.6/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/src/cuda/deform_conv_cuda.o	3332df2f32a1662c
+6	5003	1631263022543915832	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/build/temp.linux-x86_64-3.6/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/src/cpu/deform_cpu.o	4ae354d54fb9d7e3
+7	16912	1631263034444301648	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/build/temp.linux-x86_64-3.6/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/src/cuda/deform_conv_cuda.o	b2f97c210af46b4e
+6	23646	1631263041172519786	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/build/temp.linux-x86_64-3.6/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn3d/src/vision.o	aa793a713a0534da

@@ -1,0 +1,38 @@
+## Environment ##
+
+# pytorch = 1.5.0
+# torchvision = 0.6.0
+# cudatoolkit = 10.2(10.1) (cuda 10.1.243 version)
+# pytorch/pytorch:1.6.0-cuda10.1-cudnn7-devel
+
+# conda create -n dpstudio python=3.6
+# conda activate dpstudio
+# conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.2 -c pytorch
+
+## Python Dependencies ##
+
+trimesh
+fvcore
+matplotlib
+texttable
+opencv-python
+parmap
+tensorboardX
+tensorflow-gpu==2.3.1
+pillow
+open3d
+sklearn
+pandas
+mxnet
+scipy
+ninja
+# gluoncv
+face_alignment
+torchgeometry
+pytorch-lightning==1.4.9
+scikit-image
+mmcv
+mmcv-full
+configparser
+timm
+einops

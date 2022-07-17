@@ -1,0 +1,13 @@
+{
+    "loss_type": ["smoothL1"],
+    "metric_type": ["absolute_dp", "affine_dp"],
+    "lambdas": [1.0, 1.0],
+
+    "mindisp": -4,
+    "maxdisp": 12,
+    "level": 8,
+
+    "input_channel": 3,
+    "k": 3,
+    "r": 3
+}

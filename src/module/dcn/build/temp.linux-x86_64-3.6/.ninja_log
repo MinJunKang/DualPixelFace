@@ -1,0 +1,5 @@
+# ninja log v5
+1	20997	1627287601428587824	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn/build/temp.linux-x86_64-3.6/src/deform_conv_cuda_kernel.o	18666b7f115fc242
+0	25524	1627287605952713303	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn/build/temp.linux-x86_64-3.6/src/deform_conv_cuda.o	6f5fe84adc489611
+12	22635	1631262998315130362	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn/build/temp.linux-x86_64-3.6/src/deform_conv_cuda_kernel.o	681d18468e2087b0
+12	31921	1631263007591431082	/home/miruware/hdd2/minjun/CVPR22/DPStudio/Module/External/dcn/build/temp.linux-x86_64-3.6/src/deform_conv_cuda.o	d77dd4736fa4cd14

@@ -1,0 +1,17 @@
+{
+    "path": "/home/miruware/ssd/dataset/rcv_face/highres",
+    "gender": ["w", "m"],
+    "viewpoint": [1, 2, 3, 4, 5, 6, 7, 8],
+    "light": [1],
+    "focal_length_mm": 135,
+    "expression": ["neutral", "frowning", "yawning"],
+    "distance": ["forward", "backward"],
+    "direction": ["left", "right", "front", "upper"],
+    "dp_conversion": "given",
+    "rot_input": {
+        "left": false,
+        "right": false,
+        "center": false
+    },
+    "flip_lr": true
+}

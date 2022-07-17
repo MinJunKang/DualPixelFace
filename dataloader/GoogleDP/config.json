@@ -1,0 +1,13 @@
+{
+    "path": "/home/miruware/ssd/dataset/dd_dp_dataset_png",
+    "num_view": 5,
+    "mask_threshold": 0.05,
+    "viewpoint": ["left", "right", "bottom", "top", "center"],
+    "dp_conversion": "affine",
+    "rot_input": {
+        "left": false,
+        "right": false,
+        "center": false
+    },
+    "flip_lr": false
+}

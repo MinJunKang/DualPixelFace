@@ -1,0 +1,51 @@
+{
+    "mode": "test",
+    "dataset_name": "FaceDP",
+    "dataset_config": "config",
+    "model_name": "stereonet",
+    "model_config": "config",
+    "load_strict": true,
+
+    "epoch": 75,
+    "batch_size": 1,
+    "workers": 4,
+    "accelerator": "dp",
+    "precision": 32,
+    "pin_memory": true,
+
+    "optim": "adam",
+    "init_lr": 0.0001,
+    "scheduler": "steplr",
+
+    "augmentation": ["crop_aug"],
+    "augmentation_config": "config_test",
+
+    "post_process": {
+        "use_bilateral": false,
+        "use_guided": false
+    },
+
+    "use_multi": false,
+    "use_dual_pixel": true,
+    "use_center_img": true,
+    "use_mask": true,
+    "use_disparity": true,
+    "use_depth": true,
+    "use_idepth": true,
+    "use_normal": true,
+    "use_albedo": false,
+    "use_conf": false,
+    "use_raw": true,
+
+    "multi_view": {
+        "use_dual_pixel": true,
+        "use_center_img": false,
+        "use_mask": true,
+        "use_disparity": false,
+        "use_depth": true,
+        "use_idepth": true,
+        "use_normal": false,
+        "use_albedo": false,
+        "use_conf": false
+    }
+}

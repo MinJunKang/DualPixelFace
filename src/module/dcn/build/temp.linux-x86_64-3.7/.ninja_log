@@ -1,0 +1,5 @@
+# ninja log v5
+1	13876	1634748603195679267	/workspace/Module/External/dcn/build/temp.linux-x86_64-3.7/src/deform_conv_cuda_kernel.o	ef624918231ae444
+0	25593	1634748614912045258	/workspace/Module/External/dcn/build/temp.linux-x86_64-3.7/src/deform_conv_cuda.o	69301a49ddeb631
+8	14369	1634753322185867654	/workspace/Module/External/dcn/build/temp.linux-x86_64-3.7/src/deform_conv_cuda_kernel.o	a28927af11cb82c6
+7	23545	1634753331358147594	/workspace/Module/External/dcn/build/temp.linux-x86_64-3.7/src/deform_conv_cuda.o	f8ec35f040769054

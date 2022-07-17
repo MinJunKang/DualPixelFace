@@ -1,0 +1,29 @@
+{
+    "loss_type": ["smoothL1", "cosine"],
+    "metric_type": ["absolute_dp", "affine_dp", "normal_dp"],
+    "lambdas": [1.0, 1.0],
+    "loss_weight": [1.0, 0.7, 0.5],
+
+    "mindisp": -4,
+    "maxdisp": 12,
+    "level": 8,
+
+    "input_channel": 3,
+    "inplanes": 32,
+    "block_stack": 1,
+
+    "nearest": true,
+    "bilinear": true,
+    "phase": true,
+    "asm_activation": "sigmoid",
+    "feature_fetch": false,
+
+    "predict_normal": true,
+    "use_sampling": true,
+    "use_deform": true,
+    "dsample_num": 4,
+    "sampling_method": "sort",
+    "grid_type": "3d_pred",
+    "upconv": "interpolate"
+
+}

@@ -1,0 +1,11 @@
+{
+    "path": "/home/miruware/ssd/dataset/rcv_face/highres/samples",
+    "rot_input": {
+        "left": false,
+        "right": false,
+        "center": false
+    },
+    "focal_length_mm": 135,
+    "flip_lr": false,
+    "samples": []
+}

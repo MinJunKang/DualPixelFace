@@ -1,0 +1,17 @@
+{
+    "loss_type": ["smoothL1"],
+    "metric_type": ["absolute_dp", "affine_dp"],
+    "lambdas": [1.0],
+    "loss_weight": [1.0, 0.7, 0.5],
+
+    "mindisp": -4,
+    "maxdisp": 12,
+    "level": 8,
+
+    "input_channel": 3,
+    "inplanes": 32,
+
+    "cost_volume": "psmnet",
+    "group_num": 40
+
+}

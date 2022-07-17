@@ -1,0 +1,23 @@
+{
+    "crop_aug": {
+        "method": "random_crop",
+        "type": "soft_crop",
+        "hard_crop": {
+            "crop_width": 576,
+            "crop_height": 768
+        },
+        "soft_crop": {
+            "crop_ratio": 1.0,
+            "crop_factor": 96
+        },
+        "min_inlier": 0.3,
+        "max_trial": 5
+    },
+
+    "photo_aug": {
+        "brightness": true,
+        "gamma": true,
+        "contrast": true,
+        "light": true
+    }
+}

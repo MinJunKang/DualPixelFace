@@ -1,0 +1,10 @@
+{
+    "path": "/home/miruware/ssd/dataset/dd_dp_dataset_png",
+    "rot_input": {
+        "left": false,
+        "right": false,
+        "center": false
+    },
+    "focal_length_mm": 93,
+    "flip_lr": false
+}
