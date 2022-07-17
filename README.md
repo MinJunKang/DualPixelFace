@@ -77,17 +77,17 @@ If you use these datasets, please cite their papers.
 
 ## Supporting Model
 
-(1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/JiaRenChang/PSMNet)]       [[weight]]
+(1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/JiaRenChang/PSMNet)]       [pretrained weight]
 
-(2) DPNet       [[Paper](https://arxiv.org/abs/1904.05822)]      [[Project](https://github.com/google-research/google-research/tree/master/dual_pixels)]       [[weight]]
+(2) DPNet       [[Paper](https://arxiv.org/abs/1904.05822)]      [[Project](https://github.com/google-research/google-research/tree/master/dual_pixels)]       [pretrained weight]
 
-(3) StereoNet       [[Paper](https://arxiv.org/abs/1807.08865)]       [[Code](https://github.com/meteorshowers/X-StereoLab)]       [[weight]]
+(3) StereoNet       [[Paper](https://arxiv.org/abs/1807.08865)]       [[Code](https://github.com/meteorshowers/X-StereoLab)]       [pretrained weight]
 
-(4) NNet       [[Paper](https://arxiv.org/abs/1911.10444)]       [[Code](https://github.com/udaykusupati/Normal-Assisted-Stereo)]       [[weight]]
+(4) NNet       [[Paper](https://arxiv.org/abs/1911.10444)]       [[Code](https://github.com/udaykusupati/Normal-Assisted-Stereo)]       [[pretrained weight](https://drive.google.com/file/d/1R6SuGC1Z50tx4e1DlpfaVgcSFFM3XxJp/view?usp=sharing)]
 
-(5) BTS       [[Paper](https://arxiv.org/abs/1907.10326)]       [[Code](https://github.com/cleinc/bts)]       [[weight]]
+(5) BTS       [[Paper](https://arxiv.org/abs/1907.10326)]       [[Code](https://github.com/cleinc/bts)]       [pretrained weight]
 
-(6) StereoDPNet      (Ours)       [[weight]]
+(6) StereoDPNet      (Ours)       [[pretrained weight](https://drive.google.com/file/d/1nf3R1y4Op8jeexQ9h8wgllkgGJIt-MNX/view?usp=sharing)]
 
 If you use these models, please cite their papers.
 
