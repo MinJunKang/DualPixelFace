@@ -62,12 +62,13 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 ## Supporting Dataset
 
-### Depth Benchmark
-(1) Google dual pixel depth benchmark. 
+(1) Our facial dual-pixel benchmark.
+
+(Since dataset is so huge (~2.4T), we are now providing download link for the researchers who request the dataset.)
+
+(2) Google dual-pixel depth benchmark. 
 
 (See https://github.com/google-research/google-research/tree/master/dual_pixels for detail information).
-
-(2) Our facial dataset benchmark. (comming soon, available by contacting us.)
 
 If you use these datasets, please cite their papers.
 
