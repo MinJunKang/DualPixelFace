@@ -1,14 +1,12 @@
 # DualPixelFace
-Official pytorch implementation of 
-
-["Facial Depth and Normal Estimation using Single Dual-Pixel Camera"](https://arxiv.org/abs/2111.12928) (ECCV 2022)
+Official pytorch implementation of ["Facial Depth and Normal Estimation using Single Dual-Pixel Camera"](https://arxiv.org/abs/2111.12928) (ECCV 2022)
 
 [Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)
 
 [pdf] [project] [bibtex]
 
 ## Project Description
-This project aims to provide environment for all the developlers/researchers working with the dual pixel sensor.
+This project aims to provide face related dual-pixel benchmark for all the developlers/researchers working with the dual pixel sensor.
 
 This project provides benchmark dataset and baseline code of "Facial Depth and Normal Estimation using Single Dual-Pixel Camera".
 
@@ -16,9 +14,9 @@ You can also see the recent papers related to Dual-Pixel in this [page](https://
 
 ## Environments
 
-Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6)
+Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
 
-Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/)
+Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 ## Supported Dataset
 
