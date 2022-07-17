@@ -20,9 +20,14 @@ You can also see the recent papers related to Dual-Pixel in this [page](https://
 : Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
 <pre>
 <code>
+# Create Environment
 conda create -n dpface python=3.6
 conda activate dpface
+
+# Install pytorch, torchvision, cudatoolkit
 conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytorch
+
+# Install package and cuda build
 sh ./installer.sh
 </code>
 </pre>
@@ -31,6 +36,25 @@ sh ./installer.sh
 : Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.7.0 (python version 3.7).
 <pre>
 <code>
+# Pull docker image
+docker push jack4852/facialdocker:latest
+
+# create container and include dataset's path
+docker run -it -d --gpus all --name dpface --shm-size 64G --mount type=bind,source=[Dataset Path],target=/ndata jack4852/facialdocker:latest
+
+# start container
+docker start dpface
+
+# attach container
+docker attach dpface
+
+# pull the code from github
+git init
+git pull https://github.com/MinJunKang/DualPixelFace
+
+# Install package and cuda build
+sh ./installer.sh
+
 </code>
 </pre>
 
