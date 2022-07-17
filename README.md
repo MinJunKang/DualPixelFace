@@ -27,20 +27,21 @@ Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 
 
 (2) Our facial dataset benchmark. (comming soon, available by contacting us.)
 
-### Deblurring Benchmark
-(1) York University dual pixel defocus deblurring benchmark.
-
-(See https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel for detail information)
-
 ## Supported Model
 
 (1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/JiaRenChang/PSMNet)]
 
-(2) GWCNet      [[Paper](https://arxiv.org/abs/1903.04025)]      [[Code](https://github.com/xy-guo/GwcNet)]
+(2) DPNet       [[Paper](https://arxiv.org/abs/1904.05822)]      [[Project](https://github.com/google-research/google-research/tree/master/dual_pixels)]
 
-(3) DPNet       [[Paper](https://arxiv.org/abs/1904.05822)]      [Code]
+(3) StereoNet       [[Paper](https://arxiv.org/abs/1807.08865)]       [[Code](https://github.com/meteorshowers/X-StereoLab)]
 
-(4) SubNormal      [[Paper]()]
+(4) NNet       [[Paper](https://arxiv.org/abs/1911.10444)]       [[Code](https://github.com/udaykusupati/Normal-Assisted-Stereo)]
+
+(5) BTS       [[Paper](https://arxiv.org/abs/1907.10326)]       [[Code](https://github.com/cleinc/bts)]
+
+(6) StereoDPNet      (Ours)
+
+If you use these models, please cite their papers.
 
 ## Environment Setting
 
