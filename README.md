@@ -62,7 +62,7 @@ sh ./installer.sh
 
 Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
-## Supporting Dataset
+## Supporting Datasets
 
 ### (1) Facial dual-pixel benchmark.
 
@@ -88,7 +88,7 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 If you use these datasets, please cite their papers.
 
-## Supporting Model
+## Supporting Models
 
 (1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/JiaRenChang/PSMNet)]       [pretrained weight]
 
