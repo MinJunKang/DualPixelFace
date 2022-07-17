@@ -45,15 +45,12 @@ If you use these models, please cite their papers.
 
 ## Environment Setting
 
-Your main workspace will be "DPStudioLighten".
-
 <pre>
 <code>
-conda create -n dpstudio python=3.6
-conda activate dpstudio
+conda create -n dpface python=3.6
+conda activate dpface
 conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytorch
-cd DPStudioLighten
-sh installer.sh
+sh ./installer.sh
 </code>
 </pre>
 
