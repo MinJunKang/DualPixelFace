@@ -47,12 +47,20 @@ If you use these models, please cite their papers.
 
 ## Environment Setting
 
+**Conda Environment**
+Tested on Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
 <pre>
 <code>
 conda create -n dpface python=3.6
 conda activate dpface
 conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytorch
 sh ./installer.sh
+</code>
+</pre>
+
+**Docker Environment**
+<pre>
+<code>
 </code>
 </pre>
 
