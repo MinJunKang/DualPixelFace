@@ -66,8 +66,19 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 (Since dataset is so huge (~2.4T), we are now providing download link for the researchers who request the dataset.)
 
+**How to get dataset?**
+
 1. Download and read LICENSE AGREEMENT and confirm that all the terms are agreed. Then scan the signed LICENSE AGREEMENT. (Electronic signature is allowed.)
 2. Send an email to kmmj2005@gmail.com with your signed agreement.
+
+**Directory Structure of our face dataset**
+
+- /home/miru/rcv_face/HighRes
+  - 2020-1-16_group3
+  - ...
+  - 2020-2-19_group25
+  - test.txt
+  - train.txt
 
 (2) Google dual-pixel depth benchmark. 
 
@@ -91,20 +102,10 @@ If you use these datasets, please cite their papers.
 
 If you use these models, please cite their papers.
 
-## How to run?
+## Instructions for Code
 
-First, get the dataset! and put your dataset's location at config.py 's path:datapath !!
+### Dataset Preparation
 
-**Example (Our facial dataset benchmark):** 
-
-- /home/miru/rcv_face/HighRes
-  - 2020-1-16_group3
-  - ...
-  - 2020-2-19_group25
-  - test.txt
-  - train.txt
-
-Set path:datapath = "/home/miru/rcv_face/HighRes"
 
 ### Training & Validation
 
