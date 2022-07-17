@@ -3,7 +3,7 @@ Official pytorch implementation of ["Facial Depth and Normal Estimation using Si
 
 [Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)
 
-[Arxiv] [Project] [YouTube] [PPT]
+[Paper] [Project] [YouTube] [PPT]
 
 <div class="imgTopic2">
  <p class="content"><a href="#"><img src="https://github.com/MinJunKang/DualPixelFace/blob/main/asset/teaser.png" alt="" width = "885" height ="345"/></a></p>
