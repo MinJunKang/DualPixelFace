@@ -2,7 +2,7 @@
     "mode": "test",
     "dataset_name": "FaceDP",
     "dataset_config": "config",
-    "model_name": "subdpnet",
+    "model_name": "stereodpnet",
     "model_config": "config",
     "load_strict": true,
 

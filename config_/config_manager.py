@@ -31,6 +31,8 @@ class Configuration(object):
         if self.load_model is not None:
             error_handler(self.config_path.is_file(), "invalid config name", __name__, True)
             self.data.update({'load_model': str(self.load_model.absolute())})
+        else:
+            self.data.update({'load_model': None})
             
         self.initialize()
         

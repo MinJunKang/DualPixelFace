@@ -2,7 +2,7 @@
     "mode": "train",
     "dataset_name": "FaceDP",
     "dataset_config": "config",
-    "model_name": "stereodpnet",
+    "model_name": "dpnet",
     "model_config": "config",
     "load_strict": true,
 
