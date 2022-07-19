@@ -140,7 +140,7 @@ If you want to use your own pretrained weight, please run like this.
 
 <pre>
 <code>
-CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace [Workspace Name] --loadmodel [relative/absolute path to checkpoint]
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config eval_faceDP --workspace [Workspace Name] --loadmodel [relative/absolute path to checkpoint]
 </code>
 </pre>
 
