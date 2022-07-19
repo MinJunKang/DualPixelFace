@@ -6,7 +6,7 @@ Official pytorch implementation of ["Facial Depth and Normal Estimation using Si
 [Paper] [Project] [YouTube] [PPT]
 
 <div class="imgTopic2">
- <p class="content"><a href="#"><img src="https://github.com/MinJunKang/DualPixelFace/blob/main/asset/teaser.png" alt="" width = "890" height ="300"/></a></p>
+ <p class="content"><a href="#"><img src="https://github.com/MinJunKang/DualPixelFace/blob/main/asset/teaser.png" alt="" width = "890" height ="310"/></a></p>
 </div>
 
 ## Project Description
