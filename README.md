@@ -81,7 +81,7 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
     - MASK                  : mask obtained from Structured Light (*.npy)
     - JSON                  : including path, calibration info (*.json)
     - IMG                   : IMG of LEFT, RIGHT, LEFT + RIGHT (*.JPG)
-    - DEPTH                 : metric depth [mm] (*.npy)
+    - DEPTH                 : metric-scale depth [mm] (*.npy)
     - CALIBRATION
       - pose.npy            : camera extrinsics (8 cameras)
       - Metadata.npy        : focal length [mm], focal distance [mm], Fnumber, pixel size [um]
