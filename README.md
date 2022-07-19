@@ -131,7 +131,8 @@ CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace 
 </code>
 </pre>
 
-The result will be automatically saved in ./output/[model to use]/[Workspace name]/*.
+The result will be automatically saved in ./workspace/[model name]/[Workspace Name]/*.
+You can change the model to run by changing "model_name" parameter in config_/train_faceDP.json. (must be the same as the model's name of src/model)
 
 ### Testing
 
