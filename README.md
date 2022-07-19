@@ -140,21 +140,21 @@ CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config [main config] --workspace
 
 The results will be automatically saved in ./workspace/[model name]/[Workspace Name].
 
-**Example (1)** Train stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
+**Example (1).** Train stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
 <pre>
 <code>
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace base
 </code>
 </pre>
 
-**Example (2)** Train dpnet with our face dataset (results and checkpoints are saved in ./workspace/dpnet/base2)
+**Example (2).** Train dpnet with our face dataset (results and checkpoints are saved in ./workspace/dpnet/base2)
 <pre>
 <code>
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP_dpnet --workspace base2
 </code>
 </pre>
 
-**Example (3)** Resume training of stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
+**Example (3).** Resume training of stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
 <pre>
 <code>
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace base2 --load_model [path to checkpoint]
