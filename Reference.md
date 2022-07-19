@@ -28,12 +28,6 @@ This is to share "Dual-Pixel" related reference papers.
 |2020|ICCP|[Modeling Defocus-Disparity in Dual-Pixel Sensors](https://abhijithpunnappurath.github.io/ICCP2020.pdf)|[Code](https://github.com/abhijithpunnappurath/dual-pixel-defocus-disparity) <br /> [Project] <br /> [Review]|
 |2020|ECCV|[Du2Net: Learning Depth Estimation from Dual-Cameras and Dual-Pixels](https://arxiv.org/abs/2003.14299)|[Code] <br /> [Project](https://augmentedperception.github.io/du2net/) <br /> [Review]|
 
-# Dual Pixel Reflection Removal
-
-|Year|Pub|Paper|Repo|
-|:---:|:---:|:---:|:---:|
-|2019|CVPR|[Reflection Removal Using a Dual-Pixel Sensor](https://openaccess.thecvf.com/content_CVPR_2019/papers/Punnappurath_Reflection_Removal_Using_a_Dual-Pixel_Sensor_CVPR_2019_paper.pdf)|[Code](https://github.com/abhijithpunnappurath/dprr) <br /> [Project](https://abhijithpunnappurath.github.io/dprr.html) <br /> [Review]|
-
 # Dual Pixel Depth and Deblurring
 
 |Year|Pub|Paper|Repo|
@@ -41,3 +35,8 @@ This is to share "Dual-Pixel" related reference papers.
 |2021|CVPR|[Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration](https://arxiv.org/abs/2012.00301)|[Code](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration) <br /> [Project] <br /> [Review]|
 |2021|ICCV|[Defocus map estimation and deblurring from a single dual-pixel image](https://arxiv.org/abs/2110.05655)|[Code](https://github.com/cmu-ci-lab/dual_pixel_defocus_estimation_deblurring) <br /> [Project](https://imaging.cs.cmu.edu/dual_pixels/) <br /> [Review]|
 
+# Dual Pixel Reflection Removal
+
+|Year|Pub|Paper|Repo|
+|:---:|:---:|:---:|:---:|
+|2019|CVPR|[Reflection Removal Using a Dual-Pixel Sensor](https://openaccess.thecvf.com/content_CVPR_2019/papers/Punnappurath_Reflection_Removal_Using_a_Dual-Pixel_Sensor_CVPR_2019_paper.pdf)|[Code](https://github.com/abhijithpunnappurath/dprr) <br /> [Project](https://abhijithpunnappurath.github.io/dprr.html) <br /> [Review]|
