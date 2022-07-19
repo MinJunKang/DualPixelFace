@@ -128,16 +128,39 @@ If you use these models, please cite their papers.
 
 - src/dataloader/[dataset_name] : If you want to add your own dataset, main class name should be the "[dataset_name]Loader".
 
+- You can set the model to run by setting "model_name" parameter in config_/[main config].json. (must be the same as the model_name of src/model)
+
 ### Training & Validation
 
 <pre>
 <code>
-CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace [Workspace Name]
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config [main config] --workspace [Workspace Name]
 </code>
 </pre>
 
-The result will be automatically saved in ./workspace/[model name]/[Workspace Name]/*.
-You can change the model to run by changing "model_name" parameter in config_/train_faceDP.json. (must be the same as the model's name of src/model)
+The results will be automatically saved in ./workspace/[model name]/[Workspace Name].
+
+Example (1). Train stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
+<pre>
+<code>
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace base
+</code>
+</pre>
+
+Example (2). Train dpnet with our face dataset (results and checkpoints are saved in ./workspace/dpnet/base2)
+<pre>
+<code>
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP_dpnet --workspace base2
+</code>
+</pre>
+
+Example (3). Resume training of stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
+<pre>
+<code>
+CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace base2 --load_model [path to checkpoint]
+</code>
+</pre>
+
 
 ### Testing
 
