@@ -72,8 +72,9 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 2. Send an email to kmmj2005@gmail.com with your signed agreement.
 
 **Directory Structure of our Face Dataset**
-
-- /home/miru/rcv_face/HighRes
+<pre>
+<code>
+- Parent Directory
   - 2020-1-15_group2
   - 2020-1-16_group3
     - NORMAL                : surface normal (*.npy)
@@ -92,6 +93,8 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
   - 2020-2-19_group25
   - test.txt                : list of directories for test set
   - train.txt               : list of directories for training set
+</code>
+</pre>
 
 ### (2) Google dual-pixel depth benchmark.
 
