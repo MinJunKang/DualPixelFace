@@ -74,11 +74,24 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 **Directory Structure of our Face Dataset**
 
 - /home/miru/rcv_face/HighRes
+  - 2020-1-15_group2
   - 2020-1-16_group3
+    - NORMAL                : surface normal (*.npy)
+    - MASK                  : mask obtained from Structured Light (*.npy)
+    - JSON                  : including path, calibration info (*.json)
+    - IMG                   : IMG of LEFT, RIGHT, LEFT + RIGHT (*.JPG)
+    - DEPTH                 : metric depth (*.npy)
+    - CALIBRATION
+      - pose.npy            : camera extrinsics (8 cameras)
+      - Metadata.npy        : focal length(mm), focal distance, aperture
+      - light.npy           : light direction of 6 different light conditions
+      - intrinsic.npy       : intrinsic matrix (8 cameras)
+      - Disp2Depth.npy      : currently not used
+    - ALBEDO                : albedo map (*.npy)
   - ...
   - 2020-2-19_group25
-  - test.txt
-  - train.txt
+  - test.txt                : list of directories for test set
+  - train.txt               : list of directories for training set
 
 ### (2) Google dual-pixel depth benchmark.
 
