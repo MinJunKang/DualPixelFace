@@ -9,6 +9,8 @@ This is to share "Dual-Pixel" related reference papers.
 
 [Dual Pixel Depth Estimation](#dual-pixel-depth-estimation)
 
+[Dual Pixel Depth and Deblurring](#dual-pixel-depth-and-deblurring)
+
 [Dual Pixel Reflection Removal](#dual-pixel-reflection-removal)
 
 # Dual Pixel Defocus Deblurring
@@ -17,7 +19,6 @@ This is to share "Dual-Pixel" related reference papers.
 |:---:|:---:|:---:|:---:|
 |2020|ECCV|[Defocus Deblurring Using Dual-Pixel Data](https://arxiv.org/abs/2005.00305)|[Code](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) <br /> [Project](https://www.eecs.yorku.ca/~abuolaim/eccv_2020_dp_defocus_deblurring/) <br /> [Review]|
 |2021|ICCV|[Learning to Reduce Defocus Blur by Realistically Modeling Dual-Pixel Data](https://arxiv.org/abs/2012.03255)|[Code](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel) <br /> [Project] <br /> [Review]|
-|2021|CVPR|[Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration](https://arxiv.org/abs/2012.00301)|[Code] <br /> [Project] <br /> [Review]|
 
 # Dual Pixel Depth Estimation
 
@@ -32,3 +33,11 @@ This is to share "Dual-Pixel" related reference papers.
 |Year|Pub|Paper|Repo|
 |:---:|:---:|:---:|:---:|
 |2019|CVPR|[Reflection Removal Using a Dual-Pixel Sensor](https://openaccess.thecvf.com/content_CVPR_2019/papers/Punnappurath_Reflection_Removal_Using_a_Dual-Pixel_Sensor_CVPR_2019_paper.pdf)|[Code](https://github.com/abhijithpunnappurath/dprr) <br /> [Project](https://abhijithpunnappurath.github.io/dprr.html) <br /> [Review]|
+
+# Dual Pixel Depth and Deblurring
+
+|Year|Pub|Paper|Repo|
+|:---:|:---:|:---:|:---:|
+|2021|CVPR|[Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration](https://arxiv.org/abs/2012.00301)|[Code](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration) <br /> [Project] <br /> [Review]|
+|2021|ICCV|[Defocus map estimation and deblurring from a single dual-pixel image](https://arxiv.org/abs/2110.05655)|[Code](https://github.com/cmu-ci-lab/dual_pixel_defocus_estimation_deblurring) <br /> [Project](https://imaging.cs.cmu.edu/dual_pixels/) <br /> [Review]|
+
