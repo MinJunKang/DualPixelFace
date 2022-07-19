@@ -181,19 +181,18 @@ class STEREONET(pl.LightningModule):
         return {'loss': results['final_loss'], 'log': losses}
     
     def validation_step(self, batch, batch_idx):
-        results = self.forward(batch)
-        pdb.set_trace()
-        if 'depth' in batch.keys():
-            metrics = self.metric_model.forward(results, batch)
-        return results
+        # results = self.forward(batch)
+        # if 'depth' in batch.keys():
+        #     metrics = self.metric_model.forward(results, batch)
+        # return results
+        return None
     
     def validation_epoch_end(self, outputs):
-        self.metric_model.viewer()
+        #self.metric_model.viewer()
         return None
     
     def test_step(self, batch, batch_idx):
         results = self.forward(batch)
-        pdb.set_trace()
         if 'depth' in batch.keys():
             metrics = self.metric_model.forward(results, batch)
         return results

@@ -23,11 +23,11 @@ class metric_selector(object):
             self.metric_func.append(loaded_file[metric_ + '_Benchmark'](option))
             self.metric_name.append(metric_)
     
-    def forward(self, pred, batch, log=True):
+    def forward(self, pred, batch, log=True, target_type='disp'):
         result = dict()
 
         for idx, func in enumerate(self.metric_func):
-            out = func.measure(pred, batch, log)
+            out = func.measure(pred, batch, log, target_type)
             result.update({self.metric_name[idx]: out})
 
         return result

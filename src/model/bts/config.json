@@ -1,3 +1,15 @@
 {
-    
+    "loss_type": ["silog"],
+    "metric_type": ["absolute_dp", "affine_dp"],
+    "lambdas": [1.0],
+    "loss_weight": [1.0],
+
+    "min_depth": 700,
+    "max_depth": 1500,
+
+    "input_channel": 3,
+
+    "encoder": "resnet50_bts",
+    "variance_focus": 0.6,
+    "bts_size": 256
 }

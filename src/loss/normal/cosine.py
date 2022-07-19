@@ -32,7 +32,7 @@ class COSINELoss(nn.modules.Module):
         denorm = torch.norm(input, p=p, dim=dim, keepdim=True).clamp_min(eps)  # in case for fp16
         return input / denorm
 
-    def forward(self, preds, batch):
+    def forward(self, preds, batch, target_type=None):
 
         pred = preds['pred_normal']
         num_pred = pred.shape[1]

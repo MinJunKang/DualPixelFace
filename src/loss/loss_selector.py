@@ -26,12 +26,12 @@ class loss_selector(object):
             self.loss_name.append(loss_)
             self.lambda_.append(option.model.lambdas[i])
     
-    def forward(self, batch, preds):
+    def forward(self, batch, preds, target_type='disp'):
         result = dict()
         losses = []
 
         for idx, loss in enumerate(self.loss_func):
-            out = loss.forward(batch, preds)
+            out = loss.forward(batch, preds, target_type)
             result.update({self.loss_name[idx] + '_loss': out['loss']})
             if 'abvalue' in out.keys():
                 result.update({'abvalue': out['abvalue']})

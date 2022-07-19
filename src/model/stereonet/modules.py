@@ -1,5 +1,5 @@
 
-import math
+import pdb
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -99,7 +99,7 @@ class EdgeAwareRefinement(nn.Module):
 class disp_regression(nn.Module):
     def __init__(self, mindisp, maxdisp, level):
         super(disp_regression, self).__init__()
-        multiplier = 4
+        multiplier = 1
         self.disparity = np.array(range(int(multiplier * level))) * ((maxdisp - mindisp) / float(multiplier * level)) + mindisp
         self.initialize = False
 

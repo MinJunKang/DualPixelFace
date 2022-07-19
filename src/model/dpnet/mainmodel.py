@@ -234,15 +234,14 @@ class DPNET(pl.LightningModule):
         return {'loss': results['final_loss'], 'log': losses}
     
     def validation_step(self, batch, batch_idx):
-        results = self.forward(batch)
-        
-        save_result_fig_depth(self.option, results, batch, self.current_epoch, self.global_step, mode='TEST')
-        if 'depth' in batch.keys():
-            metrics = self.metric_model.forward(results, batch)
-        return results
+        # results = self.forward(batch)
+        # if 'depth' in batch.keys():
+        #     metrics = self.metric_model.forward(results, batch)
+        # return results
+        return None
     
     def validation_epoch_end(self, outputs):
-        self.metric_model.viewer()
+        # self.metric_model.viewer()
         return None
     
     def test_step(self, batch, batch_idx):

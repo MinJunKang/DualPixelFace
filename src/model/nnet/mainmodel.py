@@ -203,7 +203,7 @@ class NNET(pl.LightningModule):
     
     def validation_step(self, batch, batch_idx):
         results = self.forward(batch)
-        save_result_fig_depth(self.option, results, batch, self.current_epoch, self.global_step, mode='TEST')
+        # save_result_fig_depth(self.option, results, batch, self.current_epoch, self.global_step, mode='TEST')
         if 'depth' in batch.keys():
             metrics = self.metric_model.forward(results, batch)
         return results

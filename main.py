@@ -1,6 +1,4 @@
 
-import pdb
-
 import torch
 import argparse
 import warnings
@@ -35,7 +33,7 @@ def main():
     callbacks = [lr_monitor]
     if opt.mode == 'train':
         callbacks.append(ModelCheckpoint(
-            dirpath=str(opt.output_path),
+            dirpath=str(opt.workspace_path),
             filename='checkpoint_{epoch:02d}',
             save_top_k=-1,
             period=1
@@ -46,6 +44,7 @@ def main():
         logger=logger,
         checkpoint_callback=opt.mode == 'train',
         callbacks=callbacks,
+        resume_from_checkpoint=opt.load_model if opt.load_model is not None and opt.load_strict else None,  # resume training
         check_val_every_n_epoch=1,
         accelerator=opt.accelerator,
         benchmark=True,
@@ -58,8 +57,7 @@ def main():
         profiler="pytorch"
     )
     if opt.mode == 'train':
-        ckpt_path = opt.load_model if opt.load_model is not None and opt.load_strict else None  # resume training
-        runner.fit(model=model, ckpt_path=ckpt_path)
+        runner.fit(model=model)
     elif opt.mode == 'test':
         runner.test(model=model, verbose=True)
     else:

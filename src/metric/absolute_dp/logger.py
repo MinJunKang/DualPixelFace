@@ -37,9 +37,10 @@ class absolute_dp_Benchmark(object):
     def measure(self, pred_, batch, log=True, target_type='disp'):
         
         assert (target_type in ['disp', 'depth', 'idepth'])
-        pred = pred_['pred_depth'] if target_type in ['disp', 'idepth'] else inverse_depth(pred_['pred_depth'])
+        pred = pred_['pred_depth'] if target_type in ['disp', 'idepth'] else pred_['pred_depth']
         abvalue = batch['abvalue'] if 'abvalue' in batch.keys() else pred_['abvalue']
-        pred = disp2depth(pred, abvalue, as_numpy=True)
+        if target_type in ['disp', 'idepth']:
+            pred = disp2depth(pred, abvalue, as_numpy=True)
         target = tensor2numpy(batch['depth'])
         
         mask = tensor2numpy(batch['mask']) if 'mask' in batch.keys() else np.ones_like(pred[:, 0, :, :])

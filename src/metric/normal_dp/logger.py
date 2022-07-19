@@ -26,7 +26,7 @@ class normal_dp_Benchmark(object):
         self.metric['n_err_mean'] = []
         self.metric['n_err_rmse'] = []
 
-    def measure(self, pred_, batch, log=True):
+    def measure(self, pred_, batch, log=True, target_type=None):
         
         pred = pred_['pred_normal']
         target = batch['normal']
