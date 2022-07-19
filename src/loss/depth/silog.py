@@ -42,9 +42,9 @@ class SILOGLoss(nn.modules.Module):
                 gt = gt * batch['conf']
                 
         if mask is not None:
-            dist = [weights[i] * (torch.log(pred_[mask]) - torch.log(gt[mask])) for i in range(num_pred)]
+            dist = [weights[i] * (torch.log(pred_[:, i][mask]) - torch.log(gt[mask])) for i in range(num_pred)]
         else:
-            dist = [weights[i] * (torch.log(pred_) - torch.log(gt)) for i in range(num_pred)]
+            dist = [weights[i] * (torch.log(pred_[:, i]) - torch.log(gt)) for i in range(num_pred)]
         loss = sum([torch.sqrt((d ** 2).mean() - self.variance_focus * (d.mean() ** 2)) * 10.0 for d in dist])
 
         results = {'loss': loss, 'abvalue': ab_value}
