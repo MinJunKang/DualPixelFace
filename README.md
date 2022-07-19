@@ -122,11 +122,11 @@ If you use these models, please cite their papers.
 
 ### Code Structure (Simple rule for name)
 
-*config_/[main config].json : set dataset, model, and augmentations to apply by assigning configuration file name.*
+- config_/[main config].json : set dataset, model, and augmentations to apply by assigning configuration file name.
 
-*src/model/[model_name] : If you want to add your own model, main class name should be the same as upper case of "model_name".*
+- src/model/[model_name] : If you want to add your own model, main class name should be the same as upper case of "model_name".
 
-*src/dataloader/[dataset_name] : If you want to add your own dataset, main class name should be the "[dataset_name]Loader".*
+- src/dataloader/[dataset_name] : If you want to add your own dataset, main class name should be the "[dataset_name]Loader".
 
 ### Training & Validation
 
