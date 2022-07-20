@@ -15,6 +15,8 @@ This is to share "Dual-Pixel" related reference papers.
 
 [Dual Pixel based Asthetic Effect](#dual-pixel-based-asthetic-effect)
 
+[Dual Pixel Face Anti-Spoofing](#dual-pixel-face-anti-spoofing)
+
 # Dual Pixel Defocus Deblurring
 
 |Year|Pub|Paper|Repo|
@@ -49,4 +51,13 @@ This is to share "Dual-Pixel" related reference papers.
 |:---:|:---:|:---:|:---:|
 |2022|WACV|[Multi-View Motion Synthesis via Applying Rotated Dual-Pixel Blur Kernels](https://openaccess.thecvf.com/content/WACV2022W/WACI/html/Abuolaim_Multi-View_Motion_Synthesis_via_Applying_Rotated_Dual-Pixel_Blur_Kernels_WACVW_2022_paper.html)|[Code] <br /> [Review]|
 |2022|WACV|[Improving Single-Image Defocus Deblurring: How Dual-Pixel Images Help Through Multi-Task Learning](https://openaccess.thecvf.com/content/WACV2022/html/Abuolaim_Improving_Single-Image_Defocus_Deblurring_How_Dual-Pixel_Images_Help_Through_Multi-Task_WACV_2022_paper.html)|[Code](https://github.com/Abdullah-Abuolaim/multi-task-defocus-deblurring-dual-pixel-nimat) <br /> [Review]|
+
+# Dual Pixel Face Anti Spoofing
+
+|Year|Pub|Paper|Repo|
+|:---:|:---:|:---:|:---:|
+|2020|IEEE TIFS|[Single-Shot Face Anti-Spoofing for Dual Pixel Camera](https://ieeexplore.ieee.org/document/9248008)|[Code] <br /> [Review]|
+
+
+
 
