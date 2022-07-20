@@ -14,6 +14,8 @@ This project provides benchmark dataset and baseline code of "Facial Depth and N
 
 You can also see the recent papers related to Dual-Pixel in this [page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
 
+The project is still under construction.
+
 ## Environment Setting
 
 **Conda Environment**
