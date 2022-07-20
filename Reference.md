@@ -13,6 +13,8 @@ This is to share "Dual-Pixel" related reference papers.
 
 [Dual Pixel Reflection Removal](#dual-pixel-reflection-removal)
 
+[Dual Pixel based Asthetic Effect](#dual-pixel-based-asthetic-effect)
+
 # Dual Pixel Defocus Deblurring
 
 |Year|Pub|Paper|Repo|
@@ -40,3 +42,11 @@ This is to share "Dual-Pixel" related reference papers.
 |Year|Pub|Paper|Repo|
 |:---:|:---:|:---:|:---:|
 |2019|CVPR|[Reflection Removal Using a Dual-Pixel Sensor](https://openaccess.thecvf.com/content_CVPR_2019/papers/Punnappurath_Reflection_Removal_Using_a_Dual-Pixel_Sensor_CVPR_2019_paper.pdf)|[Code](https://github.com/abhijithpunnappurath/dprr) <br /> [Project](https://abhijithpunnappurath.github.io/dprr.html) <br /> [Review]|
+
+# Dual Pixel based Asthetic Effect
+
+|Year|Pub|Paper|Repo|
+|:---:|:---:|:---:|:---:|
+|2022|WACV|[Multi-View Motion Synthesis via Applying Rotated Dual-Pixel Blur Kernels](https://openaccess.thecvf.com/content/WACV2022W/WACI/html/Abuolaim_Multi-View_Motion_Synthesis_via_Applying_Rotated_Dual-Pixel_Blur_Kernels_WACVW_2022_paper.html)|[Code] <br /> [Review]|
+|2022|WACV|[Improving Single-Image Defocus Deblurring: How Dual-Pixel Images Help Through Multi-Task Learning](https://openaccess.thecvf.com/content/WACV2022/html/Abuolaim_Improving_Single-Image_Defocus_Deblurring_How_Dual-Pixel_Images_Help_Through_Multi-Task_WACV_2022_paper.html)|[Code](https://github.com/Abdullah-Abuolaim/multi-task-defocus-deblurring-dual-pixel-nimat) <br /> [Review]|
+
