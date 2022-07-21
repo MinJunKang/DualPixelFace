@@ -99,7 +99,7 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 (5) BTS       [[Paper](https://arxiv.org/abs/1907.10326)]       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/bts)]       [pretrained weight]
 
-(6) StereoDPNet      (Ours)       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/stereodpnet)]       [[pretrained weight](https://drive.google.com/file/d/1nf3R1y4Op8jeexQ9h8wgllkgGJIt-MNX/view?usp=sharing)]
+(6) StereoDPNet      **(Ours)**       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/stereodpnet)]       [[pretrained weight](https://drive.google.com/file/d/1nf3R1y4Op8jeexQ9h8wgllkgGJIt-MNX/view?usp=sharing)]
 
 If you use these models, please cite their papers.
 
