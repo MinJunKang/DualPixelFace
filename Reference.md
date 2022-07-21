@@ -32,6 +32,7 @@ This is to share "Dual-Pixel" related reference papers.
 |2019|ICCV|[Learning Single Camera Depth Estimation using Dual-Pixels](https://arxiv.org/abs/1904.05822)|[Code](https://github.com/google-research/google-research/tree/master/dual_pixels) <br /> [Project] <br /> [Review]|
 |2020|ICCP|[Modeling Defocus-Disparity in Dual-Pixel Sensors](https://abhijithpunnappurath.github.io/ICCP2020.pdf)|[Code](https://github.com/abhijithpunnappurath/dual-pixel-defocus-disparity) <br /> [Project] <br /> [Review]|
 |2020|ECCV|[Du2Net: Learning Depth Estimation from Dual-Cameras and Dual-Pixels](https://arxiv.org/abs/2003.14299)|[Code] <br /> [Project](https://augmentedperception.github.io/du2net/) <br /> [Review]|
+|2021|CVPR|[IFAN: Iterative Filter Adaptive Network for Single Image Defocus Deblurring](https://arxiv.org/pdf/2108.13610.pdf)|[Code](https://github.com/codeslake/IFAN) <br /> [Project](https://junyonglee.me/projects/IFAN/) <br /> [Review]|
 
 # Dual Pixel Depth and Deblurring
 
