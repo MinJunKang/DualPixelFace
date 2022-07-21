@@ -173,7 +173,7 @@ This work is in part supported by the Ministry of Trade, Industry and Energy (MO
 ```
 @article{kang2021facial,
   title={Facial Depth and Normal Estimation using Single Dual-Pixel Camera},
-  author={Kang, Minjun and Choe, Jaesung and Ha, Hyowon and Jeon, Hae-Gon and Im, Sunghoon and Kweon, In So},
+  author={Kang, Minjun and Choe, Jaesung and Ha, Hyowon and Jeon, Hae-Gon and Im, Sunghoon and Kweon, In So and Yoon, KuK-Jin},
   journal={arXiv preprint arXiv:2111.12928},
   year={2021}
 }
