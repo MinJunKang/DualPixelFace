@@ -107,11 +107,15 @@ If you use these models, please cite their papers.
 
 ### Code Structure (Simple rule for name)
 
-- config_/[main config].json : set dataset, model, and augmentations to apply by assigning configuration name and file name.
+- config_/[main config].json : set options of dataset, model, and augmentations to use.
 
 - src/model/[model_name] : If you want to add your own model, main class name should be the same as upper case of "model_name".
 
+(The model should contain json file that indicates specific parameters of the model.)
+
 - src/dataloader/[dataset_name] : If you want to add your own dataset, main class name should be the "[dataset_name]Loader".
+
+(The dataset should contain json file that indicates specific parameters of the dataset.)
 
 - You can set the model to run by setting "model_name" parameter in config_/[main config].json. (must be the same as the model_name of src/model)
 
