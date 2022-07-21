@@ -1,27 +1,23 @@
-# Facial Depth and Normal Estimation using Single Dual-Pixel Camera
-Official pytorch implementation of ["Facial Depth and Normal Estimation using Single Dual-Pixel Camera"](https://arxiv.org/abs/2111.12928) (ECCV 2022)
+# Face Reconstruction from Dual-Pixel Camera
 
-[Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)
+This is an official implementation of the paper,
+> [Facial Depth and Normal Estimation using Single Dual-Pixel Camera](https://arxiv.org/abs/2111.12928)<br/>
+> [Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)<br/>
+> European Conference on Computer Vision (ECCV), Tel Aviv, Israel, 2022<br/>
+> [Paper](https://arxiv.org/abs/2111.12928) [Project] [YouTube] [PPT] [Dataset]
 
-[Paper] [Project] [YouTube] [PPT]
-
-<img src="https://github.com/MinJunKang/DualPixelFace/blob/main/asset/teaser.png" alt="drawing" width = "890">
 
 ## Project Description
-This project aims to provide face related dual-pixel benchmark for all the developlers/researchers working with the dual pixel sensor.
+- Provide face related dual-pixel benchmark for all the developlers/researchers working with the dual pixel sensor.
+- Release new benchmark dataset and baseline code.
+- Summarize awesome Dual-Pixel papers [Page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
+<img src="https://github.com/MinJunKang/DualPixelFace/blob/main/asset/teaser.png" alt="drawing" width = "890">
 
-This project provides benchmark dataset and baseline code of "Facial Depth and Normal Estimation using Single Dual-Pixel Camera".
-
-You can also see the recent papers related to Dual-Pixel in this [page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
-
-The project is still under construction.
 
 ## Environment Setting
-
-**Conda Environment**
-: Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).
-<pre>
-<code>
+- **Conda 3nvironment**
+: Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).<br/>
+```
 # Create Environment
 conda create -n dpface python=3.6
 conda activate dpface
@@ -31,13 +27,11 @@ conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 (10.2) -c pytor
 
 # Install package and cuda build
 sh ./installer.sh
-</code>
-</pre>
+```
 
-**Docker Environment**
+- **Docker environment**
 : Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.7.0 (python version 3.7).
-<pre>
-<code>
+```
 # Pull docker image
 docker push jack4852/eccv22_facialdocker:latest
 
@@ -56,26 +50,21 @@ git pull https://github.com/MinJunKang/DualPixelFace
 
 # Install package and cuda build
 sh ./installer.sh
-
-</code>
-</pre>
+```
 
 Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
-## Supporting Datasets
-
-### (1) Facial dual-pixel benchmark.
+## Facial Dual-Pixel Benchmark
 
 (Since dataset is huge (~600G), we are now providing download link for the researchers who request the dataset.)
 
-**How to get dataset?**
+- **How to get dataset?**
 
 1. Download, read [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing), and confirm that all the terms are agreed. Then scan the signed [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing). (Electronic signature is allowed.)
 2. Send an email to kmmj2005@gmail.com with your signed agreement.
 
-**Directory Structure of our Face Dataset**
-<pre>
-<code>
+- **Directory structure of our dataset**
+```
 - Parent Directory
   - 2020-1-15_group2
   - 2020-1-16_group3
@@ -95,14 +84,10 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
   - 2020-2-19_group25
   - test.txt                : list of directories for test set
   - train.txt               : list of directories for training set
-</code>
-</pre>
+```
 
-### (2) Google dual-pixel depth benchmark.
-
-(See https://github.com/google-research/google-research/tree/master/dual_pixels for detail information).
-
-If you use these datasets, please cite their papers.
+- **Google dual-pixel depth benchmark** ([URL](https://github.com/google-research/google-research/tree/master/dual_pixels))<br/>
+Please cite this paper, if you use the dataset.
 
 ## Supporting Models
 
@@ -133,61 +118,47 @@ If you use these models, please cite their papers.
 - You can set the model to run by setting "model_name" parameter in config_/[main config].json. (must be the same as the model_name of src/model)
 
 ### Training & Validation
-
-<pre>
-<code>
+```
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config [main config] --workspace [Workspace Name]
-</code>
-</pre>
+```
 
 The results will be automatically saved in ./workspace/[model name]/[Workspace Name].
 
 **Example (1).** Train stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
-<pre>
-<code>
+```
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace base
-</code>
-</pre>
+```
 
 **Example (2).** Train dpnet with our face dataset (results and checkpoints are saved in ./workspace/dpnet/base2)
-<pre>
-<code>
+```
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP_dpnet --workspace base2
-</code>
-</pre>
+```
 
 **Example (3).** Resume training of stereodpnet with our face dataset (results and checkpoints are saved in ./workspace/stereodpnet/base)
-<pre>
-<code>
+```
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config train_faceDP --workspace base2 --load_model [path to checkpoint]
-</code>
-</pre>
+```
 
 
 ### Testing
-
 If you want to use your own pretrained weight, please run like this.
 
-<pre>
-<code>
+```
 CUDA_VISIBLE_DEVICES=[gpu idx] python main.py --config eval_faceDP --workspace [Workspace Name] --load_model [relative/absolute path to checkpoint]
-</code>
-</pre>
+```
 
 ### Demo
-
 Will be updated soon!
 
-### Acknowledgements
+## Acknowledgements
+This work is in part supported by the Ministry of Trade, Industry and Energy (MOTIE) and Korea Institute for Advancement of Technology (KIAT) through the International Cooperative R\&D program in part (P0019797), `Project for Science and Technology Opens the Future of the Region' program through the INNOPOLIS FOUNDATION funded by Ministry of Science and ICT (Project Number: 2022-DD-UP-0312), and also supported by the Samsung Electronics Co., Ltd (Project Number: G01210570).
 
-### References
-<pre>
-<code>
+## References
+```
 @article{kang2021facial,
   title={Facial Depth and Normal Estimation using Single Dual-Pixel Camera},
   author={Kang, Minjun and Choe, Jaesung and Ha, Hyowon and Jeon, Hae-Gon and Im, Sunghoon and Kweon, In So},
   journal={arXiv preprint arXiv:2111.12928},
   year={2021}
 }
-</code>
-</pre>
+```
