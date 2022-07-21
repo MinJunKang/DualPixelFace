@@ -23,9 +23,9 @@ This is to share "Dual-Pixel" related reference papers.
 |:---:|:---:|:---:|:---:|
 |2020|ECCV|[Defocus Deblurring Using Dual-Pixel Data](https://arxiv.org/abs/2005.00305)|[Code](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) <br /> [Project](https://www.eecs.yorku.ca/~abuolaim/eccv_2020_dp_defocus_deblurring/) <br /> [Review]|
 |2021|ICCV|[Learning to Reduce Defocus Blur by Realistically Modeling Dual-Pixel Data](https://arxiv.org/abs/2012.03255)|[Code](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel) <br /> [Project] <br /> [Review]|
-|2022|Arxiv|[Learning Dual-Pixel Alignment for Defocus Deblurring](https://arxiv.org/abs/2204.12105)|[Code](https://github.com/liyucs/DPANet) <br /> [Project] <br /> [Review]|
 |2021|CVPR|[IFAN: Iterative Filter Adaptive Network for Single Image Defocus Deblurring](https://arxiv.org/pdf/2108.13610.pdf)|[Code](https://github.com/codeslake/IFAN) <br /> [Project](https://junyonglee.me/projects/IFAN/) <br /> [Review]|
 |2021|NIPS|[Gaussian Kernel Mixture Network for Single Image Defocus Deblurring](https://arxiv.org/abs/2111.00454)|[Code](https://github.com/csZcWu/GKMNet) <br /> [Project] <br /> [Review]|
+|2022|Arxiv|[Learning Dual-Pixel Alignment for Defocus Deblurring](https://arxiv.org/abs/2204.12105)|[Code](https://github.com/liyucs/DPANet) <br /> [Project] <br /> [Review]|
 
 # Dual Pixel Depth Estimation
 
