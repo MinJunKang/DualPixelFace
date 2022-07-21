@@ -52,7 +52,7 @@ git pull https://github.com/MinJunKang/DualPixelFace
 sh ./installer.sh
 ```
 
-## Facial Dual-Pixel Benchmark
+## Facial Dual Pixel Benchmark
 
 (Since dataset is huge (~600G), we are now providing download link for the researchers who request the dataset.)
 
