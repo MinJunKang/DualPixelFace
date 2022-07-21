@@ -109,7 +109,7 @@ If you use these models, please cite their papers.
 
 - config_/[main config].json : set options of dataset, model, and augmentations to use.
 
-- src/model/[model_name] : If you want to add your own model, main class name should be the same as upper case of "model_name".
+- src/model/[model_name] : If you want to add your own model, main class name should be the upper case of "model_name".
 
   (The model should contain json file that indicates specific parameters of the model.)
 
