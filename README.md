@@ -117,7 +117,9 @@ If you use these models, please cite their papers.
 
   (The dataset should contain json file that indicates specific parameters of the dataset.)
 
-- You can set the model to run by setting "model_name" parameter in config_/[main config].json. (must be the same as the model_name of src/model)
+- You can set the model to run by setting "model_name" parameter in config_/[main config].json. 
+
+  (must be the same as the model_name of src/model)
 
 ### Training & Validation
 ```
