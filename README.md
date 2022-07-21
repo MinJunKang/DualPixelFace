@@ -8,7 +8,7 @@ This is an official implementation of the paper,
 
 
 ## Project Description
-- Provide face related dual-pixel benchmark for all the developlers/researchers working with the dual pixel sensor.
+- Provide face related dual-pixel benchmark for all the developers/researchers working with the dual pixel sensor.
 - Release new benchmark dataset and baseline code.
 - Summarize awesome Dual-Pixel papers [Page](https://github.com/MinJunKang/DualPixelFace/blob/main/Reference.md).
 <img src="https://github.com/MinJunKang/DualPixelFace/blob/main/asset/teaser.png" alt="drawing" width = "890">
