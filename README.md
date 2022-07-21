@@ -155,7 +155,7 @@ This work is in part supported by the Ministry of Trade, Industry and Energy (MO
 
 [3D Deformable Conv](https://github.com/XinyiYing/D3Dnet) : We use this repo to implement ANM module of StereoDPNet at [here](https://github.com/MinJunKang/DualPixelFace/tree/main/src/module/dcn3d).
 
-[Affine DP Metric](https://github.com/google-research/google-research/tree/master/dual_pixels) : We use this repo to measure performance using affine metric at [here](https://github.com/MinJunKang/DualPixelFace/blob/main/src/metric/affine_dp/metric.py)
+[Affine DP Metric](https://github.com/google-research/google-research/tree/master/dual_pixels) : We use this repo to measure performance using affine metric at [here](https://github.com/MinJunKang/DualPixelFace/blob/main/src/metric/affine_dp/metric.py).
 
 ## References
 ```
