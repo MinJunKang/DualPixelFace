@@ -151,9 +151,9 @@ Will be updated soon!
 ## Acknowledgements
 This work is in part supported by the Ministry of Trade, Industry and Energy (MOTIE) and Korea Institute for Advancement of Technology (KIAT) through the International Cooperative R\&D program in part (P0019797), `Project for Science and Technology Opens the Future of the Region' program through the INNOPOLIS FOUNDATION funded by Ministry of Science and ICT (Project Number: 2022-DD-UP-0312), and also supported by the Samsung Electronics Co., Ltd (Project Number: G01210570).
 
-[Face-Segmentation-Tool](https://github.com/zllrunning/face-parsing.PyTorch) : We use this repo to get face mask for demo.
+[Face-Segmentation-Tool](https://github.com/zllrunning/face-parsing.PyTorch) : We use this repo to get face mask for demo at [here](https://github.com/MinJunKang/DualPixelFace/tree/main/src/module/face_seg).
 
-[3D Deformable Conv](https://github.com/XinyiYing/D3Dnet) : We use this repo to implement ANM module of StereoDPNet.
+[3D Deformable Conv](https://github.com/XinyiYing/D3Dnet) : We use this repo to implement ANM module of StereoDPNet at [here](https://github.com/MinJunKang/DualPixelFace/tree/main/src/module/dcn3d).
 
 ## References
 ```
