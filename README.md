@@ -16,7 +16,7 @@ This is an official implementation of the paper,
 
 ## Environment Setting
 - **Conda environment**
-: Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python version 3.6).<br/>
+: Ubuntu 18.04 CUDA-10.1 (10.2) with Pytorch==1.5.0, Torchvision==0.6.0 (python 3.6).<br/>
 ```
 # Create Environment
 conda create -n dpface python=3.6
@@ -30,7 +30,7 @@ sh ./installer.sh
 ```
 
 - **Docker environment**
-: Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.7.0 (python version 3.7).
+: Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.7.0 (python 3.7).
 ```
 # Pull docker image
 docker push jack4852/eccv22_facialdocker:latest
