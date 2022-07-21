@@ -86,9 +86,6 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
   - train.txt               : list of directories for training set
 ```
 
-- **Google dual-pixel depth benchmark** ([URL](https://github.com/google-research/google-research/tree/master/dual_pixels))<br/>
-Please cite this paper, if you use the dataset.
-
 ## Supporting Models
 
 (1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/JiaRenChang/PSMNet)]       [pretrained weight]
