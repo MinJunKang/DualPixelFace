@@ -60,8 +60,9 @@ Our code is based on [PytorchLightning](https://www.pytorchlightning.ai/).
 
 - **How to get dataset?**
 
-1. Download, read [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing), and confirm that all the terms are agreed. Then scan the signed [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing). (Electronic signature is allowed.)
-2. Send an email to kmmj2005@gmail.com with your signed agreement.
+1. Download, read [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing), and confirm that all the terms are agreed.
+2. Then scan the signed [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing). (Digital signature is allowed.)
+3. Send an email to kmmj2005@gmail.com with your signed agreement.
 
 - **Directory structure of our dataset**
 ```
