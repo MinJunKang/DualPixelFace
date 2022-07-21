@@ -33,7 +33,7 @@ sh ./installer.sh
 : Ubuntu 18.04 CUDA-10.2 with Pytorch==1.6.0, Torchvision==0.7.0 (python 3.7).
 ```
 # Pull docker image
-docker push jack4852/eccv22_facialdocker:latest
+docker pull jack4852/eccv22_facialdocker:latest
 
 # create container and include dataset's path
 docker run -it -d --gpus all --name dpface --shm-size 64G --mount type=bind,source=[Local Dataset Path],target=[Docker Dataset Path] jack4852/eccv22_facialdocker:latest
