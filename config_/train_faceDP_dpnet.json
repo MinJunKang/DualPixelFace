@@ -7,7 +7,7 @@
     "load_strict": true,
 
     "epoch": 75,
-    "batch_size": 4,
+    "batch_size": 2,
     "workers": 4,
     "accelerator": "dp",
     "precision": 32,

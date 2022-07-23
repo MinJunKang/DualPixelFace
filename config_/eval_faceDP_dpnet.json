@@ -1,13 +1,13 @@
 {
-    "mode": "train",
+    "mode": "test",
     "dataset_name": "FaceDP",
     "dataset_config": "config",
-    "model_name": "stereodpnet",
+    "model_name": "dpnet",
     "model_config": "config",
     "load_strict": true,
 
     "epoch": 75,
-    "batch_size": 4,
+    "batch_size": 2,
     "workers": 4,
     "accelerator": "dp",
     "precision": 32,
@@ -17,8 +17,13 @@
     "init_lr": 0.0001,
     "scheduler": "steplr",
 
-    "augmentation": ["crop_aug", "photo_aug"],
-    "augmentation_config": "config_train",
+    "augmentation": ["crop_aug"],
+    "augmentation_config": "config_test",
+
+    "post_process": {
+        "use_bilateral": false,
+        "use_guided": false
+    },
 
     "use_multi": false,
     "use_dual_pixel": true,
