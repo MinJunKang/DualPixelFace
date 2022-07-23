@@ -88,17 +88,17 @@ sh ./installer.sh
 
 ## Supporting Models
 
-(1) PSMNet      [[Paper](https://arxiv.org/abs/1803.08669)]       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/psmnet)]       [pretrained weight]
+(1) PSMNet      [Paper](https://arxiv.org/abs/1803.08669)       [Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/psmnet)       [pretrained weight]
 
-(2) DPNet       [[Paper](https://arxiv.org/abs/1904.05822)]      [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/dpnet)]       [pretrained weight]
+(2) DPNet       [Paper](https://arxiv.org/abs/1904.05822)      [Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/dpnet)       [pretrained weight]
 
-(3) StereoNet       [[Paper](https://arxiv.org/abs/1807.08865)]       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/stereonet)]       [pretrained weight]
+(3) StereoNet       [Paper](https://arxiv.org/abs/1807.08865)       [Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/stereonet)       [pretrained weight](https://drive.google.com/file/d/1AddriSoipTjqlVnZ8unvVow3-OOztnaS/view?usp=sharing)
 
-(4) NNet       [[Paper](https://arxiv.org/abs/1911.10444)]       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/nnet)]       [[pretrained weight](https://drive.google.com/file/d/1R6SuGC1Z50tx4e1DlpfaVgcSFFM3XxJp/view?usp=sharing)]
+(4) NNet       [Paper](https://arxiv.org/abs/1911.10444)       [Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/nnet)       [pretrained weight](https://drive.google.com/file/d/1R6SuGC1Z50tx4e1DlpfaVgcSFFM3XxJp/view?usp=sharing)
 
-(5) BTS       [[Paper](https://arxiv.org/abs/1907.10326)]       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/bts)]       [pretrained weight]
+(5) BTS       [Paper](https://arxiv.org/abs/1907.10326)       [Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/bts)       [pretrained weight]
 
-(6) StereoDPNet      **(Ours)**       [[Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/stereodpnet)]       [[pretrained weight](https://drive.google.com/file/d/1nf3R1y4Op8jeexQ9h8wgllkgGJIt-MNX/view?usp=sharing)]
+(6) StereoDPNet      **(Ours)**       [Code](https://github.com/MinJunKang/DualPixelFace/tree/main/src/model/stereodpnet)       [[pretrained weight](https://drive.google.com/file/d/1nf3R1y4Op8jeexQ9h8wgllkgGJIt-MNX/view?usp=sharing)]
 
 If you use these models, please cite their papers.
 
