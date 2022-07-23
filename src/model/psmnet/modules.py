@@ -411,6 +411,6 @@ class PSMNetHGAggregation(nn.Module):
             cost2 = F.interpolate(cost2, scale_factor=4, mode='trilinear', align_corners=True)
             cost1 = torch.squeeze(cost1, 1)
             cost2 = torch.squeeze(cost2, 1)
-            return [cost3, cost2, cost1], [out3]
+            return [cost3, cost2, cost1], [out3, out2, out1]
         else:
             return [cost3], [out3]
