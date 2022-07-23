@@ -26,6 +26,7 @@ This is to share "Dual-Pixel" related reference papers.
 |2021|CVPR|[IFAN: Iterative Filter Adaptive Network for Single Image Defocus Deblurring](https://arxiv.org/pdf/2108.13610.pdf)|[Code](https://github.com/codeslake/IFAN) <br /> [Project](https://junyonglee.me/projects/IFAN/) <br /> [Review]|
 |2021|NIPS|[Gaussian Kernel Mixture Network for Single Image Defocus Deblurring](https://arxiv.org/abs/2111.00454)|[Code](https://github.com/csZcWu/GKMNet) <br /> [Project] <br /> [Review]|
 |2022|Arxiv|[Learning Dual-Pixel Alignment for Defocus Deblurring](https://arxiv.org/abs/2204.12105)|[Code](https://github.com/liyucs/DPANet) <br /> [Project] <br /> [Review]|
+|2022|Journal, Sinica|[BaMBNet: A Blur-Aware Multi-Branch Network for Dual-Pixel Defocus Deblurring](https://ieeexplore.ieee.org/abstract/document/9763466?casa_token=1EFJtEPJFcYAAAAA:UfNJfFEEn99HYl4jzLeTSsScJEyUIPtUZxVOg7jonGtjiqcqhETenS1t6V1yTSL3WQ5xJIf-ag)|[Code](https://github.com/junjun-jiang/BaMBNet) <br /> [Project] <br /> [Review]|
 
 # Dual Pixel Depth Estimation
 
