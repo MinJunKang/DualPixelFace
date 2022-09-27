@@ -4,7 +4,7 @@ This is an official implementation of the paper,
 > [Facial Depth and Normal Estimation using Single Dual-Pixel Camera](https://arxiv.org/abs/2111.12928)<br/>
 > [Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)<br/>
 > European Conference on Computer Vision (ECCV), Tel Aviv, Israel, 2022<br/>
-> [Paper](https://arxiv.org/abs/2111.12928) [Project] [YouTube] [PPT] [Dataset](#dataset)
+> [Paper](https://arxiv.org/abs/2111.12928) [Project] [YouTube] [Poster] [Dataset](#dataset)
 
 
 ## Project Description
