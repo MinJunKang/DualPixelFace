@@ -4,7 +4,7 @@ This is an official implementation of the paper,
 > [Facial Depth and Normal Estimation using Single Dual-Pixel Camera](https://arxiv.org/abs/2111.12928)<br/>
 > [Minjun Kang](http://rcv.kaist.ac.kr/), [Jaesung Choe](https://sites.google.com/view/jaesungchoe), [Hyowon Ha](https://sites.google.com/site/hyowoncv/), [Hae-Gon Jeon](https://sites.google.com/site/hgjeoncv/home), [Sunghoon Im](https://cvlab.dgist.ac.kr/), [In So Kweon](http://rcv.kaist.ac.kr/), and [KuK-Jin Yoon](http://vi.kaist.ac.kr/)<br/>
 > European Conference on Computer Vision (ECCV), Tel Aviv, Israel, 2022<br/>
-> [[Paper](https://arxiv.org/abs/2111.12928)] [[Video](https://www.dropbox.com/s/kgdr7f8ku6sddys/video_final.mp4)] [[Video Slide](https://www.dropbox.com/s/ou456n58lcw8a05/slide_final.pptx?dl=0)] [[Poster](https://www.dropbox.com/s/2ud0yqv7ug4rkyw/ECCV22_POSTER_4619.pdf)] [[Dataset](#dataset)]
+> [[Paper](https://arxiv.org/abs/2111.12928)] [[Video](https://drive.google.com/file/d/1_VOu_6oZP1gpSCdDegcwLkk1z3x14M3_/view?usp=sharing)] [[Video Slide](https://docs.google.com/presentation/d/1iSCAWHkQFGsMqhJkE_XiNaEfq8UXjNxk/edit?usp=sharing&ouid=114346149758857698950&rtpof=true&sd=true)] [[Poster](https://drive.google.com/file/d/1ZpprX0tat_Nd6h-avBQb4Mkl4I97tykx/view?usp=sharing)] [[Dataset](#dataset)]
 
 
 ## Project Description
