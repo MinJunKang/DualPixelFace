@@ -55,9 +55,9 @@ sh ./installer.sh
 <a id="dataset"></a>
 ## Facial Dual Pixel Benchmark
 
-(Since dataset is huge (~600G), we are now providing download link for the researchers who request the dataset.)
+(The dataset is about (~481G), we are now providing a download link for the researchers who request the dataset.)
 
-- **How to get dataset?**
+- **How to get the dataset?**
 
 1. Download, read [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing), and confirm that all the terms are agreed.
 2. Then scan the signed [LICENSE AGREEMENT](https://drive.google.com/file/d/1HaYd8fqxoeAAtcCZzkAYQe9KwgAKwpgA/view?usp=sharing). (Digital signature is allowed.)
